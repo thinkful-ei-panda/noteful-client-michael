@@ -1,0 +1,156 @@
+
+
+*{
+    font-family: "sans-serif"
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.group-column {
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.note-margin {
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h1, h2, p {
+    margin: 5px;
+}
+
+a.main-link {
+    color: rgb(0, 0, 0);
+}
+
+a:hover.main-link, a:visited.main-link {
+    color: rgb(0, 0, 0);
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A2A1B4;
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+button {
+    margin: 5px;
+}
+
+
+@media all and (min-width: 1000px) {
+    .wrapper {
+        width: 90%;
+        margin: auto;
+        border: 1px solid black;
+    }
+    
+    .group-column {
+        display: flex;
+        flex-flow: column;
+        padding: 20px;
+        /* justify-content: center; */
+        /* width: 100%; */
+    }
+    
+    .group-row {
+        display: flex;
+        flex-flow: row;
+        /* justify-content: center; */
+        /* width: 100%; */
+    }
+    
+    .item {
+        flex: 1;
+    }
+    
+    .item-double {
+        flex: 4;
+    }
+    
+    .note-group-row {
+        justify-content: space-between;
+    }
+    
+    .justify-content-center {
+        justify-content: center;
+    }
+    
+    .align-self-center {
+        align-self: center;
+    }
+    
+    .border {
+        border: 1px solid black;
+    }
+    
+    .note-margin {
+        margin-bottom: 20px;
+    }
+    
+    .padding {
+        padding: 10px;
+    }
+
+    h1 {
+        padding: 0 0 0 20px;
+        text-align: left;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul{
+        list-style-type: none;
+        padding-inline-start: 0;
+    }
+    
+    li {
+        margin-bottom: 10px;
+    }
+    
+    h2 {
+        margin: 0  0 15px 0;
+    }
+
+    form.group-column {
+        width: 50%;
+        margin: auto;
+    }
+
+    textarea {
+        height: 300px;
+    }
+
+}
