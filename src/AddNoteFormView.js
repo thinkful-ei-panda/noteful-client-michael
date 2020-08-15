@@ -16,7 +16,7 @@ class AddNoteFormView extends React.Component {
 
     static contextType = NotefulContext;
 
-    // Validation Handlers
+    
 
     validateNoteName = (newNoteName) => {  
         if (!newNoteName) {
