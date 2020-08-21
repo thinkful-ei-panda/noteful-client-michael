@@ -67,7 +67,6 @@ class App extends React.Component {
         return Promise.all([folders.json(), notes.json()])
       })
       .then(([folders, notes]) => {
-        console.log(folders, notes)
         this.setState({folders, notes});
       })
       .catch(error => this.setState({error}, () => console.log(error)))
